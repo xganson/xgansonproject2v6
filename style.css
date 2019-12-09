@@ -1,0 +1,583 @@
+body {
+  margin: 0 0 0 0;
+}
+.grid-container {
+  display: grid;
+  height: 100%;
+  margin-top: -10px;
+}
+.grid-itema {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 100px;
+  text-align: center;
+  grid-column: col 1 / span 8;
+  grid-row: row 1 / span 16;
+  height: 100%;
+  width: 100%;
+}
+.grid-itema1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 100px;
+  text-align: center;
+  grid-column: col 1 / span 8;
+  grid-row: row 1 / span 4;
+  width: 100%;
+}
+.grid-itema2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 100px;
+  font-family: "bebas neue";
+  text-align: center;
+  grid-column: col 1 / span 8;
+  grid-row: row 5 / span 6;
+  width: 100%;
+}
+.grid-itema3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  text-align: center;
+  grid-column: col 1 / span 8;
+  grid-row: row 11 / span 2;
+  width: 100%;
+  font-family: "roboto condensed";
+  font-weight: bold;
+  font-style: italic;
+}
+.grid-itema4 {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 100px;
+  text-align: center;
+  grid-column: col 1 / span 8;
+  grid-row: row 13 / span 4;
+  height: auto;
+  width: 100%;
+}
+.grid-itemb {
+  background-color: black;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 100px;
+  text-align: center;
+  grid-column: col 9 / span 8;
+  grid-row: row 1 / span 18;
+  height: 100%;
+  width: 100%;
+}
+.home-container {
+  display: grid;
+  height: 100%;
+  grid-gap: 10px 10px;
+  grid-template: none;
+  font-family: "fjalla one";
+  color: white;
+  grid-template-columns: repeat(16, 1fr);
+}
+a {
+  color: white;
+}
+.home-itema {
+  background-image: url("catbc.jpg");
+  background-size: cover;
+  font-size: 40px;
+  text-align: left;
+  grid-column: 1 / 5;
+  grid-row: 1 / 17;
+  height: 100%;
+  width: 100%;
+}
+.catleft10 {
+  padding-left: 10px;
+}
+.home-itemb {
+  background-image: url("catcage.jpg");
+  background-size: cover;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 5 / 13;
+  grid-row: 1 / 9;
+  height: 100%;
+  width: 100%;
+}
+.badcat {
+  padding-left: 20px;
+  padding-top: 120px;
+}
+.hicat {
+  background-color: black;
+}
+.home-itemc {
+  background-image: url("catdr.jpg");
+  background-size: cover;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: center;
+  grid-column: 13 / 17;
+  grid-row: 1 / 9;
+  height: 100%;
+  width: 100%;
+}
+.home-itemd {
+  background-image: url("catcut.jpg");
+  background-size: cover;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: center;
+  grid-column: 5 / 9;
+  grid-row: 9 / 17;
+  height: 100%;
+  width: 100%;
+}
+.home-iteme {
+  background-image: url("catrat.jpg");
+  background-size: cover;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 9 / 17;
+  grid-row: 9 / 17;
+  height: 100%;
+  width: 100%;
+}
+.historical-container {
+  display: grid;
+  height: 100%;
+  margin-top: -10px;
+  grid-gap: 4px 4px;
+  grid-template: none;
+  font-family: "fjalla one";
+  color: white;
+  grid-template-columns: repeat(16, 1fr);
+  background-color: black;
+}
+.historical-itema {
+  background-color: #262626;
+  text-align: center;
+  grid-column: 1 / 17;
+  grid-row: 1 / 5;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding-bottom: 1%;
+}
+.h1historicaltitle{
+  padding-top: 2%;
+  color: #00a8c9;
+  font-size: 60px;
+}
+.historical-itemb {
+  background-color: #262626;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 1 / 5;
+  grid-row: 5 / 9;
+  height: 100%;
+  width: 100%;
+  padding-left: 3%;
+}
+.h11 {
+  padding-left: 3%;
+  color: #00a8c9;
+}
+.h61 {
+  padding-left: 2%;
+}
+.historical-itemc {
+  background-image: url("egyptcats.jpg");
+  background-size: cover;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: center;
+  grid-column: 5 / 9;
+  grid-row: 5 / 9;
+  height: 100%;
+  width: 100%;
+}
+.historical-itemd {
+  background-color: #262626;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 9 / 13;
+  grid-row: 5 / 9;
+  height: 100%;
+  width: 100%;
+}
+.historical-iteme {
+  background-image: url("temphistoricaltree.jpg");
+  background-size: cover;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 13 / 17;
+  grid-row: 5 / 9;
+  height: 100%;
+  width: 100%;
+}
+.historical-itemf {
+  background-color: #262626;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 1 / 9;
+  grid-row: 9 / 13;
+  height: 100%;
+  width: 100%;
+}
+.historical-itemg {
+  background-color: #262626;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 9 / 17;
+  grid-row: 9 / 13;
+  height: 100%;
+  width: 100%;
+}
+.historical-itemh {
+  background-color: #262626;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 1 / 9;
+  grid-row: 13 / 17;
+  height: 100%;
+  width: 100%;
+}
+.historical-itemi {
+  background-color: #262626;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 9 / 17;
+  grid-row: 13 / 17;
+  height: 100%;
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.social-container {
+  background: rgb(188,218,245);
+  background: linear-gradient(0deg, rgba(188,218,245,1) 0%, rgba(245,227,188,1) 81%);
+  display: grid;
+  grid-gap: 10px;
+  height: 100vh;
+  width: 100vw;
+  color: black;
+  grid-template-columns: repeat(16, 1fr);
+  grid-auto-rows: 1fr
+}
+.social-itemd {
+  text-align: center;
+  grid-column: 1 / 17;
+  grid-row: 1 / 2;
+  font-family: "Roboto Condensed";
+  height: 0.1em;
+  width: 100%;
+  font-size: 30px;
+}
+.h3social {
+  font-style: italic;
+  font-weight: 300;
+}
+.social-itema {
+  font-size: 40px;
+  text-align: left;
+  grid-column: 1 / 9;
+  grid-row: 2 / 6;
+  height: 100%;
+  width: 100%;
+}
+.social-itemb {
+  background-color: #e8c187;
+  font-family: "Roboto Condensed";
+  font-size: 40px;
+  text-align: left;
+  grid-column: 9 / 16;
+  grid-row: 2 / 6;
+  height: 100%;
+  width: 100%;
+  padding-top: 7%;
+  padding-left: 17%;
+  padding-right: 5%;
+}
+.social-itemc {
+  background-image: url("orangecage.jpg");
+  background-size: 763px 320px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 2 / 10;
+  grid-row: 3 / 5; 
+  height: 100%;
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.scientific-container {
+  display: grid;
+  grid-gap: 10px;
+  height: 100vh;
+  width: 100vw;
+  font-family: "roboto condensed";
+  color: black;
+  grid-template-columns: repeat(16, 1fr); 
+}
+.scientific-itemb {
+  background-color: white;
+  font-size: 30px;
+  text-align: left;
+  grid-column: 9 / 14;
+  grid-row: 1 / 7;
+  height: 100%;
+  width: 100%;
+  padding-left: 15%;
+}
+.scientific-itemc {
+  background-image: url("damn.png");
+  background-size: cover;
+  font-size: 30px;
+  text-align: left;
+  grid-column: 4 / 9;
+  grid-row: 1 / 7; 
+  height: 100%;
+  width: 100%;
+}
+.scientific-iteme {
+  background-image: url("damndamndamn.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  font-size: 40px;
+  text-align: left;
+  grid-column: 9 / 14;
+  grid-row: 7 / 11;
+  height: 100%;
+  width: 100%;
+}
+.scientific-itemf {
+  background-color: white;
+  background-size: cover;
+  font-size: 30px;
+  text-align: left;
+  grid-column: 4 / 9;
+  grid-row: 7 / 11; 
+  height: 100%;
+  width: 100%;
+  padding-right: 15%;
+}
+.scientific-itemg {
+  background-color: white;
+  font-size: 30px;
+  text-align: left;
+  grid-column: 9 / 14;
+  grid-row: 11 / 15;
+  height: 100%;
+  width: 100%;
+  padding-left: 15%;
+}
+.scientific-itemh {
+  background-image: url("damndamn.png");
+  background-size: cover;
+  font-size: 30px;
+  text-align: left;
+  grid-column: 4 / 9;
+  grid-row: 11 / 15; 
+  height: 100%;
+  width: 100%;
+}
+.scientific-itemj {
+  background: rgb(248,100,68);
+  background: radial-gradient(circle, rgba(248,100,68,0.8998949921765581) 0%, rgba(232,166,74,0.8718837876947654) 100%);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 14 / 17;
+  grid-row: 1 / 15; 
+  height: 100%;
+  width: 100%;
+}
+.scientific-itemi {
+  background: rgb(248,100,68);
+  background: radial-gradient(circle, rgba(248,100,68,0.8998949921765581) 0%, rgba(232,166,74,0.8718837876947654) 100%);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 1 / 4;
+  grid-row: 1 / 15; 
+  height: 100%;
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.environmental-container {
+  display: grid;
+  grid-gap: 10px;
+  height: 100vh;
+  width: 100vw;
+  font-family: "fjalla one";
+  color: black;
+  grid-template-columns: repeat(16, 1fr);
+  background: rgb(152,180,112);
+  background: linear-gradient(0deg, rgba(152,180,112,1) 0%, rgba(255,252,244,1) 81%);
+}
+.environmental-itema {
+  font-size: 100px;
+  text-align: right;
+  grid-column: 1 / 11;
+  grid-row: 1 / 10;
+  height: 100%;
+  width: 100%;
+}
+.environmental-itemb {
+  background-image: url("pounce.jpg");
+  background-size: cover;
+  font-size: 40px;
+  text-align: left;
+  grid-column: 8 / 17;
+  grid-row: 1 / 10;
+  height: 100%;
+  width: 100%;
+}
+.environmental-itemc {
+  background-color: black;
+  background-size: cover;
+  color: white;
+  font-size: 40px;
+  text-align: left;
+  grid-column: 4 / 12;
+  grid-row: 8 / 12; 
+  height: 100%;
+  width: 100%;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.environmental-iteme {
+  background-color: #5b8555;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+  grid-column: 7 / 13;
+  grid-row: 11 / 13;
+  height: 100%;
+  width: 100%;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-right: 2%;
+}
+.environmental-itemv {
+  background-image: url("vvvv.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  text-align: left;
+  grid-column: 5 / 11;
+  grid-row: 5 / 8; 
+  height: 100%;
+  width: 100%;
+  padding-bottom: 3%;
+}
+.environmental-itemg {
+  background-color: blue;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 9 / 14;
+  grid-row: 11 / 15;
+  height: 100%;
+  width: 100%;
+}
+.environmental-itemh {
+  background-color: magenta;
+  background-size: cover;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  text-align: left;
+  grid-column: 4 / 9;
+  grid-row: 11 / 15; 
+  height: 100%;
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.campaign-container {
+  display: grid;
+  grid-gap: 10px;
+  height: 100vh;
+  width: 100vw;
+  font-family: "times roman";
+  color: black;
+  grid-template-columns: repeat(16, 1fr);
+}
+.campaign-itema {
+  background-image: url("campaignpic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  font-size: 100px;
+  text-align: right;
+  grid-column: 1 / 17;
+  grid-row: 1 / 17;
+  height: 100%;
+  width: 100%;
+}
+.campaign-itemb {
+  background-color: white;
+  opacity: 65%;
+  font-family: "bebas neue";
+  font-size: 100px;
+  text-align: center;
+  grid-column: 3 / 15;
+  grid-row: 6 / 9;
+  height: 100%;
+  width: 100%;
+}
+.hidonate{
+  background-color: #add6a7;
+}
+.catcenter{
+  margin: auto;
+  width: 50%;
+  padding-top: 7%;
+}
+.campaign-itemc {
+  font-size: 30px;
+  text-align: center;
+  grid-column: 3 / 15;
+  grid-row: 9 / 10; 
+  height: 100%;
+  width: 100%;
+  font-family: "roboto condensed";
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+.campaign-itemd {
+  text-align: center;
+  grid-column: 3 / 15;
+  grid-row: 10 / 11;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.catbutton{
+  font-size: 30px;
+  background-color: white;
+  padding: 15px 32px;
+  margin: 16px 0 !important;
+  text-decoration: none;
+  font-family: "roboto condensed";
+  font-weight: bold;
+}
+.whatever {
+  color: black;
